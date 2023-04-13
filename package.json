@@ -1,0 +1,32 @@
+{
+  "name": "jobbee-api",
+  "version": "1.0.0",
+  "description": "api for a job plataform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "prod": "SET NODE_ENV=production & nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-PPeralta/Restful-Api.git"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G-PPeralta/Restful-Api/issues"
+  },
+  "homepage": "https://github.com/G-PPeralta/Restful-Api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "node-geocoder": "^4.2.0",
+    "slugify": "^1.6.5",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
